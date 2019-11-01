@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AkunActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="170dp">
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars[10]" />
+
+        <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AKUNMU"
+                android:textSize="30sp" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/ak_nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="56dp"
+                    android:text="Nama: "
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:id="@+id/ak_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="56dp"
+                    android:text="Email: "
+                    android:textSize="18sp" />
+
+            <Button
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="kembali" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

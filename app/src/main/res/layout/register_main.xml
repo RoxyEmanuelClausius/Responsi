@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp" tools:srcCompat="@mipmap/dazbe"
+                    android:id="@+id/imageView"/>
+            <TextView
+                    android:text="Nico Dazbee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/textView6" android:textAlignment="center"
+                    android:textSize="50sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="Registrasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/register" android:textSize="36sp"
+                    android:layout_marginLeft="135dp"/>
+            <TextView
+                    android:text="Nama Lengkap:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/nama" android:layout_marginLeft="30dp"
+                    android:layout_marginTop="45dp" android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Nama Lengkap Anda"
+                    android:ems="10"
+                    android:id="@+id/tx_nama" android:layout_marginBottom="30dp" android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+            <TextView
+                    android:text=" Email:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/email_login" android:layout_marginLeft="30dp"
+                    android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:text="E-Mail"
+                    android:ems="10"
+                    android:id="@+id/tx_email" android:layout_marginLeft="30dp" android:layout_marginBottom="30dp"
+                    android:layout_marginRight="30dp"/>
+            <TextView
+                    android:text="Password:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/pss_tx" android:layout_marginLeft="30dp"
+                    android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:text="Password"
+                    android:ems="10"
+                    android:id="@+id/tx_pss" android:layout_marginLeft="30dp" android:layout_marginBottom="15dp"
+                    android:layout_marginRight="30dp"
+                    android:autofillHints="" />
+            <Button
+                    android:text="@string/registrasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/regis"/>
+            <Button
+                    android:text="@string/kembali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/kembali"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

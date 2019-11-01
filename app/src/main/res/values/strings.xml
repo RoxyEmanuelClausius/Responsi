@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">responsi</string>
+    <string name="kembali">kembali</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="presiden_name" />
+    <string name="presiden_tgl_lahir" />
+    <string name="presiden_durasai" />
+</resources>
